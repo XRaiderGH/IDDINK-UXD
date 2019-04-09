@@ -1,0 +1,77 @@
+.html, body {
+  font-family: Quicksand;
+  margin: 0;
+  height: 100%; }
+
+.navbar {
+  height: 3.5em;
+  display: flex;
+  font-family: Quicksand; }
+  .navbarLogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3em;
+    width: 213px;
+    background-image: url("../images/iddink_logo_blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 100px;
+    flex-grow: 1; }
+  .navbarContent {
+    font-size: 0.9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #0073cf;
+    flex-grow: 0.02; }
+  .navbarSearch {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 0.1; }
+    .navbarSearchIcon {
+      width: 16px;
+      height: 16px;
+      background-image: url("../images/search-icon.png"); }
+
+.jumbotron {
+  padding-left: 250px;
+  height: 300px;
+  background-image: url("../images/slide-iddink1.jpg");
+  background-size: cover; }
+  .jumbotronContent {
+    padding-top: 65px;
+    width: 400px; }
+    .jumbotronContent p {
+      font-size: 1.28em;
+      color: white; }
+    .jumbotronContentCTA {
+      transform: translate(190px, 50px);
+      font-size: 1em;
+      height: 3em;
+      width: 150px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+
+.watDoenWijContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  text-align: center; }
+  .watDoenWijContent h1 {
+    color: #0073cf; }
+  .watDoenWijContent h4 {
+    color: #0073cf; }
+  .watDoenWijContentCTA {
+    margin-top: 50px;
+    font-size: 1em;
+    height: 3em;
+    width: 350px;
+    background-color: #0073cf;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white; }
+
+/*# sourceMappingURL=master.css.map */
